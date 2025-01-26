@@ -1,3 +1,3 @@
 import "./styles.css";
 
-alert('This is a wobbery!');
+console.log('This is a wobbery!');
