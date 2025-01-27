@@ -77,12 +77,12 @@ nav button:hover {
   margin: -2rem;
 }
 
-.page-head h2 {
+.greeting {
   font-size: 5rem;
   color: var(--red);
 }
 
-.container {
+.card {
   margin-top: 2rem;
   padding: 2rem;
   background-color: var(--red);
