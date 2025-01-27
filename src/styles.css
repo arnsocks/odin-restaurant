@@ -1,7 +1,8 @@
 @import url(https://fonts.bunny.net/css?family=bungee-shade:400);
 
 :root {
-  --red: #C00;
+  --red: #E22223;
+  --white: #fff;
 }
 
 * {
@@ -13,7 +14,15 @@
 }
 
 body {
-  background-color: #faece5;
+  background-color:var(--white);
+  text-align: center;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  /* background-color: rebeccapurple; */
 }
 
 header {
@@ -24,7 +33,6 @@ header {
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: var(--red);
-
 }
 
 nav {
@@ -35,10 +43,14 @@ nav {
   height: 4rem;
 }
 
-#logo {
+/* div {
+  border: 1px solid black;
+} */
+
+#title {
   font-family: 'Bungee Shade', display;
   font-size: 3rem;
-  color: white;
+  color: var(--white);
 }
 
 nav button {
@@ -46,11 +58,42 @@ nav button {
   font-size: 1.5rem;
   background-color: var(--red);
   padding: 10px;
-  color: white;
+  color: var(--white);
   border: none;
 }
 
 nav button:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+#content {
+  margin: auto;
+  width: 100%;
+}
+
+#logo {
+  height: 20rem;
+  margin: -2rem;
+}
+
+.page-head h2 {
+  font-size: 5rem;
+  color: var(--red);
+}
+
+.container {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: var(--red);
+  color: var(--white);
+}
+
+footer {
+  background-color: var(--red);
+  color: var(--white);
+  min-height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
