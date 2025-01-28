@@ -72,16 +72,6 @@ nav button:hover {
   width: 100%;
 }
 
-#logo {
-  height: 20rem;
-  margin: -2rem;
-}
-
-.greeting {
-  font-size: 5rem;
-  color: var(--red);
-}
-
 .card {
   margin-top: 2rem;
   padding: 2rem;

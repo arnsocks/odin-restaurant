@@ -2,3 +2,13 @@
   font-size: 5rem;
   color: var(--red);
 }
+
+.greeting {
+  font-size: 5rem;
+  color: var(--red);
+}
+
+#logo {
+  height: 20rem;
+  margin: -2rem;
+}
