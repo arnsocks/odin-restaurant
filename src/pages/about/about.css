@@ -1,3 +1,38 @@
 .about-test {
   color: rebeccapurple;
 }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#about-div p {
+  width: clamp(20%, 70ch, 80%);
+  text-align: start;
+  margin-bottom: 2rem;
+}
+
+#about-div h2 {
+  margin-bottom: 2rem;
+}
+
+.people-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: clamp(20%, 70ch, 80%);
+}
+
+#about-div .people-grid p {
+  width: 100%;
+  padding: 1rem;
+}
+
+.profile-pic {
+  height: 10rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+}
