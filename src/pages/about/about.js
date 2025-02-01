@@ -18,11 +18,11 @@ export default function AboutDiv() {
   historyCard.appendChild(history);
 
   let p = document.createElement('p');
-  p.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dicta odit velit nihil nobis, doloribus suscipit rerum obcaecati at perferendis, doloremque, repellat accusantium blanditiis! Itaque repudiandae maxime ratione? Nam, molestiae.";
+  p.textContent = "Sea raven--rudd Pacific herring, candiru pipefish collared carpetshark coley. Baikal oilfish mola mola sunfish. Pearlfish chub daggertooth pike conger, minnow banded killifish rock cod yellowfin tuna. Climbing gourami; cutthroat trout, 'longnose whiptail catfish European minnow convict blenny European perch rockweed gunnel cutthroat eel Razorback sucker.' Cherry salmon loach bull trout, Molly Miller yellowtail snapper, man-of-war fish, mummichog. Cherubfish dragon goby convict blenny, California halibut filefish mooneye tope porbeagle shark brown trout barracudina powen.";
   historyCard.appendChild(p);
 
   p = document.createElement('p');
-  p.textContent = "This is another, totally unrelated paragraph - but made with the same createElement call. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dicta odit velit nihil nobis, doloribus suscipit rerum obcaecati at perferendis, doloremque, repellat accusantium blanditiis! Itaque repudiandae maxime ratione? Nam, molestiae.";
+  p.textContent = "Hillstream loach elver Alaska blackfish, shell-ear snailfish sea catfish prowfish longfin escolar threadfin Indian mul cornetfish. Pacific herring; cutlassfish, gray mullet white marlin alooh white marlin snipefish ilisha. Barracudina common carp ayu cod prickly shark Reef triggerfish riffle dace, glass knifefish duckbill eel bonytongue, 'dojo loach gray mullet.' Pencil catfish yellowfin surgeonfish yellow bass mud catfish pigfish banjo catfish. Atka mackerel Hammerjaw mud minnow sauger minnow giant wels shrimpfish blackchin sturgeon boafish dartfish silverside Blacksmelt tui chub steelhead silver driftfish spiny eel. Stoneroller minnow Black sea bass striped burrfish; hoki denticle herring stream catfish. Shortnose chimaera platyfish barracudina rockfish whale catfish rough scad ling cod saw shark. Archerfish pelagic cod, 'carpsucker chimaera pike characid armorhead catfish elephantnose fish eucla cod medusafish northern anchovy bent-tooth gray eel-catfish Red salmon sailfin silverside swamp-eel.'";
   historyCard.appendChild(p);
 
   // ** CREATE THE PEOPLE SECTION **

@@ -1,8 +1,7 @@
 import "./home.css"
 import logoImg from "../../img/lobbo_logo.png";
 
-export default function HomeDiv() {
-  const HoursList = {
+const HoursList = {
     sunday: "Sunday: Closed",
     monday: "Monday: 10-4",
     tuesday: "Tuesday: 10-4",
@@ -11,6 +10,8 @@ export default function HomeDiv() {
     friday: "Friday: 10-10",
     saturday: "Saturday: 10-10"
   }
+
+export default function HomeDiv() {
   const container = document.createElement('div');
 
   const logo = document.createElement('img');
